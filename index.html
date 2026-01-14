@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taunton Castle Way Departures</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Taunton Castle Way (S-bound)</h1>
+      <p id="last-updated">Loading departures...</p>
+    </header>
+
+    <section class="announcements">
+      <h2>Service Announcements</h2>
+      <ul id="announce-list">
+        <!-- Populated by JS or static -->
+        <li>No major delays reported today.</li>
+        <li>Route 21A: Minor timetable adjustment on weekends.</li>
+      </ul>
+    </section>
+
+    <section class="departures">
+      <h2>Next Departures</h2>
+      <table id="departures-table">
+        <thead>
+          <tr>
+            <th>Route</th>
+            <th>Destination</th>
+            <th>Due</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="departures-body"></tbody>
+      </table>
+      <p id="source-note">Data from bustimes.org (scraped) via Cloudflare Worker</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

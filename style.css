@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+header {
+  background: #004d99;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 { margin: 0; font-size: 2.2rem; }
+h2 { margin: 20px 20px 10px; color: #004d99; }
+
+#last-updated { margin: 8px 0 0; font-size: 0.95rem; opacity: 0.9; }
+
+.announcements {
+  background: #fff8e1;
+  padding: 0 20px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.announcements ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.announcements li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.announcements li:last-child { border-bottom: none; }
+
+.departures table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f8f9fa;
+  font-weight: 500;
+  color: #555;
+}
+
+.route-badge {
+  display: inline-block;
+  background: #004d99;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  min-width: 40px;
+  text-align: center;
+}
+
+.due-soon { color: #d32f2f; font-weight: bold; }
+.due { color: #388e3c; font-weight: bold; }
+.scheduled { color: #757575; font-style: italic; }
+
+.live-indicator {
+  font-size: 0.8rem;
+  color: #388e3c;
+  margin-left: 8px;
+}
+
+#source-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  padding: 15px;
+  background: #fafafa;
+}
