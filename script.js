@@ -1,4 +1,4 @@
-const WORKER_URL = 'https://your-worker-name.youraccount.workers.dev'; // ← YOUR Worker URL
+const WORKER_URL = 'https://bus-board.joshpople20.workers.dev'; // ← YOUR Worker URL
 const STOP_CODE = '3600SOC31122';
 
 let previousData = []; // Track changes to trigger flips
